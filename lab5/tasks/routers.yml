@@ -1,0 +1,29 @@
+routers:
+  - name: Router1
+    management_ip: 192.168.1.101
+    interfaces:
+      - name: G0/2
+        ip: 10.0.10.2
+      - name: G0/3
+        ip: 10.0.10.3
+  - name: Router2
+    management_ip: 192.168.1.102
+    interfaces:
+      - name: G0/2
+        ip: 10.0.20.2
+      - name: G0/3
+        ip: 10.0.20.3
+  - name: Router3
+    management_ip: 192.168.1.103
+    interfaces:
+      - name: G0/2
+        ip: 10.0.30.2
+      - name: G0/3
+        ip: 10.0.30.3
+  - name: Router4
+    management_ip: 192.168.1.104
+    interfaces:
+      - name: G0/2
+        ip: 10.0.40.2
+      - name: G0/3
+        ip: 10.0.40.3
